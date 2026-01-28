@@ -10,3 +10,7 @@ class JobController:
     def run(self):
         while True:
             choice = self.view.menu()
+
+            if choice == "1":
+                company, title, status = self.view.get_job_input()
+                self.service.add_job(company, title, status)

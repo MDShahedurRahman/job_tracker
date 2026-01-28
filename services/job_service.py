@@ -27,3 +27,6 @@ class JobService:
 
     def list_jobs(self):
         return self.jobs
+
+    def filter_by_company(self, company):
+        return [j for j in self.jobs if j.company.lower() == company.lower()]

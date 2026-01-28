@@ -33,3 +33,6 @@ class JobController:
             elif choice == "6":
                 status = self.view.get_status()
                 self.view.display_jobs(self.service.filter_by_status(status))
+
+            elif choice == "7":
+                self.view.display_jobs(self.service.upcoming_interviews())

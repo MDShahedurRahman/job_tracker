@@ -20,3 +20,7 @@ class JobService:
                 j.status = status
                 j.interview_date = interview_date
         self.repo.save_all(self.jobs)
+
+    def delete_job(self, job_id):
+        self.jobs = [j for j in self.jobs if j.job_id != job_id]
+        self.repo.save_all(self.jobs)

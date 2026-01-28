@@ -21,3 +21,7 @@ class JobController:
             elif choice == "3":
                 job_id, status, interview = self.view.get_update_input()
                 self.service.update_status(job_id, status, interview)
+
+            elif choice == "4":
+                job_id = self.view.get_job_id()
+                self.service.delete_job(job_id)

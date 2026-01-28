@@ -36,3 +36,10 @@ class JobController:
 
             elif choice == "7":
                 self.view.display_jobs(self.service.upcoming_interviews())
+
+            elif choice == "8":
+                summary = self.service.analytics_summary()
+                self.view.display_summary(summary)
+
+            elif choice == "0":
+                break

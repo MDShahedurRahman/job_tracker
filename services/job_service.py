@@ -30,3 +30,6 @@ class JobService:
 
     def filter_by_company(self, company):
         return [j for j in self.jobs if j.company.lower() == company.lower()]
+
+    def filter_by_status(self, status):
+        return [j for j in self.jobs if j.status.lower() == status.lower()]

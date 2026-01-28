@@ -6,3 +6,7 @@ class JobController:
     def __init__(self):
         self.service = JobService()
         self.view = JobView()
+
+    def run(self):
+        while True:
+            choice = self.view.menu()

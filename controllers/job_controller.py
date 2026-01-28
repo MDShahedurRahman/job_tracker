@@ -14,3 +14,6 @@ class JobController:
             if choice == "1":
                 company, title, status = self.view.get_job_input()
                 self.service.add_job(company, title, status)
+
+            elif choice == "2":
+                self.view.display_jobs(self.service.list_jobs())

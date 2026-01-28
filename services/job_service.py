@@ -39,3 +39,9 @@ class JobService:
             j for j in self.jobs
             if j.interview_date and days_until(j.interview_date) <= days
         ]
+
+    def analytics_summary(self):
+        summary = {}
+        for j in self.jobs:
+            summary[j.status] = summary.get(j.status, 0) + 1
+        return summary

@@ -16,3 +16,14 @@ class JobApplication:
             "applied_date": self.applied_date,
             "interview_date": self.interview_date
         }
+
+    @staticmethod
+    def from_dict(data):
+        return JobApplication(
+            data["id"],
+            data["company"],
+            data["title"],
+            data["status"],
+            data["applied_date"],
+            data.get("interview_date")
+        )

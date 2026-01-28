@@ -13,3 +13,10 @@ class JobService:
         job = JobApplication(job_id, company, title, status, today())
         self.jobs.append(job)
         self.repo.save_all(self.jobs)
+
+    def update_status(self, job_id, status, interview_date=None):
+        for j in self.jobs:
+            if j.job_id == job_id:
+                j.status = status
+                j.interview_date = interview_date
+        self.repo.save_all(self.jobs)

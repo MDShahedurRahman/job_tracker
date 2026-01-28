@@ -33,3 +33,9 @@ class JobService:
 
     def filter_by_status(self, status):
         return [j for j in self.jobs if j.status.lower() == status.lower()]
+
+    def upcoming_interviews(self, days=7):
+        return [
+            j for j in self.jobs
+            if j.interview_date and days_until(j.interview_date) <= days
+        ]

@@ -25,3 +25,7 @@ class JobController:
             elif choice == "4":
                 job_id = self.view.get_job_id()
                 self.service.delete_job(job_id)
+
+            elif choice == "5":
+                company = self.view.get_company()
+                self.view.display_jobs(self.service.filter_by_company(company))

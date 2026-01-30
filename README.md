@@ -153,9 +153,7 @@ data/jobs.json
 
 ## 👨‍💻 Author
 
-Md Shahedur Rahman
-Master’s in Computer Science
-Backend | Java | Python | Distributed Systems
+Md Shahedur Rahman | Master’s in Computer Science | Backend | Java | Python | Distributed Systems
 
 
 

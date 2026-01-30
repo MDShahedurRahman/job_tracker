@@ -51,3 +51,11 @@ job_tracker/
 └── data/
     └── jobs.json
 ```
+
+## ⚙️ Installation
+
+### Prerequisites
+
+```
+- Python 3.8+
+```

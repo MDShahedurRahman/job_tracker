@@ -29,3 +29,6 @@ class JobView:
         status = input("New Status: ")
         interview = input("Interview Date (YYYY-MM-DD or blank): ")
         return job_id, status, interview or None
+
+    def get_job_id(self):
+        return int(input("Job ID: "))

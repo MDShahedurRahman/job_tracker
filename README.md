@@ -5,3 +5,20 @@ This project helps track job applications, interview stages, follow-ups, and ana
 
 This is a portfolio-quality backend-style project designed for clean architecture, commit discipline, and interview discussion.
 
+---
+
+## 🚀 Features
+
+- Add job applications  
+- Update job status  
+- Delete job entries  
+- View all applications  
+- Filter by company  
+- Filter by status  
+- Upcoming interview reminders  
+- Analytics summary  
+- JSON-based persistent storage  
+- Clean MVC separation  
+
+---
+

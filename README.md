@@ -98,3 +98,12 @@ python main.py
 - View analytics summary
 - Monitor upcoming interviews
 
+
+## 💾 Data Storage
+
+### All job data is stored in:
+
+```
+data/jobs.json
+```
+#### This ensures persistence across application runs.

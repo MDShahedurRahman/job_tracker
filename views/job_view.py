@@ -32,3 +32,6 @@ class JobView:
 
     def get_job_id(self):
         return int(input("Job ID: "))
+
+    def get_company(self):
+        return input("Company: ")

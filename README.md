@@ -108,6 +108,7 @@ data/jobs.json
 ```
 This ensures persistence across application runs.
 
+
 ## 🧠 Concepts Demonstrated
 
 - MVC Architecture
@@ -118,11 +119,14 @@ This ensures persistence across application runs.
 - CLI User Interaction
 - Git Commit Discipline
 
+
 ## 🧪 Testing Suggestions
 
+```
 - Restart app to verify persistence
 - Test filters and analytics
 - Validate interview reminders
+```
 
 
 ## 📌 Future Enhancements
@@ -132,3 +136,7 @@ This ensures persistence across application runs.
 - Web dashboard
 - Email reminders
 - Resume matching analytics
+
+
+
+

@@ -89,3 +89,12 @@ python main.py
 8. Analytics Summary
 0. Exit
 ```
+
+## 📊 Example Workflow
+
+- Add job applications
+- Update interview status
+- Track offers and rejections
+- View analytics summary
+- Monitor upcoming interviews
+

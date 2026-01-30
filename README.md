@@ -123,3 +123,12 @@ This ensures persistence across application runs.
 - Restart app to verify persistence
 - Test filters and analytics
 - Validate interview reminders
+
+
+## 📌 Future Enhancements
+
+- SQLite / PostgreSQL database
+- REST API (Flask / FastAPI)
+- Web dashboard
+- Email reminders
+- Resume matching analytics

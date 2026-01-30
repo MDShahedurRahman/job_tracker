@@ -38,3 +38,8 @@ class JobView:
 
     def get_status(self):
         return input("Status: ")
+
+    def display_summary(self, summary):
+        print("\n--- Analytics ---")
+        for k, v in summary.items():
+            print(f"{k}: {v}")

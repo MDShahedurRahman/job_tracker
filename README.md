@@ -139,4 +139,17 @@ This ensures persistence across application runs.
 
 
 
+## 📄 .gitignore (Recommended)
+
+```
+__pycache__/
+*.pyc
+data/jobs.json
+.env
+.idea/
+.vscode/
+```
+
+
+
 

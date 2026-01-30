@@ -106,4 +106,14 @@ python main.py
 ```
 data/jobs.json
 ```
-#### This ensures persistence across application runs.
+This ensures persistence across application runs.
+
+## 🧠 Concepts Demonstrated
+
+- MVC Architecture
+- Clean Code Principles
+- Layered Design
+- Business Logic Separation
+- JSON Persistence
+- CLI User Interaction
+- Git Commit Discipline

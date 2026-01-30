@@ -18,3 +18,8 @@ class JobView:
             input("Title: "),
             input("Status (applied/interview/offer/rejected): ")
         )
+
+    def display_jobs(self, jobs):
+        print("\n--- Job Applications ---")
+        for j in jobs:
+            print(f"{j.job_id}. {j.company} | {j.title} | {j.status} | Applied: {j.applied_date} | Interview: {j.interview_date}")

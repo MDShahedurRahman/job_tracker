@@ -22,3 +22,6 @@ This is a portfolio-quality backend-style project designed for clean architectur
 
 ---
 
+## 🏗 Project Architecture (MVC)
+
+```

@@ -25,3 +25,29 @@ This is a portfolio-quality backend-style project designed for clean architectur
 ## 🏗 Project Architecture (MVC)
 
 ```
+job_tracker/
+│
+├── main.py
+│
+├── controllers/
+│   └── job_controller.py
+│
+├── models/
+│   └── job_application.py
+│
+├── services/
+│   └── job_service.py
+│
+├── repositories/
+│   └── job_repository.py
+│
+├── views/
+│   └── job_view.py
+│
+├── utils/
+│   ├── date_utils.py
+│   └── validation_utils.py
+│
+└── data/
+    └── jobs.json
+```

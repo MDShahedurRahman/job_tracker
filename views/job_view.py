@@ -23,3 +23,9 @@ class JobView:
         print("\n--- Job Applications ---")
         for j in jobs:
             print(f"{j.job_id}. {j.company} | {j.title} | {j.status} | Applied: {j.applied_date} | Interview: {j.interview_date}")
+
+    def get_update_input(self):
+        job_id = int(input("Job ID: "))
+        status = input("New Status: ")
+        interview = input("Interview Date (YYYY-MM-DD or blank): ")
+        return job_id, status, interview or None

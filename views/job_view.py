@@ -35,3 +35,6 @@ class JobView:
 
     def get_company(self):
         return input("Company: ")
+
+    def get_status(self):
+        return input("Status: ")

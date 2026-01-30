@@ -59,3 +59,11 @@ job_tracker/
 ```
 - Python 3.8+
 ```
+
+### Setup
+
+```
+git clone https://github.com/yourusername/job-application-tracker.git
+cd job-application-tracker
+python main.py
+```

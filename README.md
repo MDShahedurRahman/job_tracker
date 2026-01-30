@@ -75,3 +75,17 @@ python main.py
 ```
 python main.py
 ```
+
+### You will see:
+
+```
+1. Add Job
+2. View All Jobs
+3. Update Status
+4. Delete Job
+5. Filter by Company
+6. Filter by Status
+7. Upcoming Interviews
+8. Analytics Summary
+0. Exit
+```

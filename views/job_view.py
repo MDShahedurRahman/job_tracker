@@ -1,4 +1,5 @@
 class JobView:
+
     def menu(self):
         print("\n1. Add Job")
         print("2. View All Jobs")
@@ -10,3 +11,10 @@ class JobView:
         print("8. Analytics Summary")
         print("0. Exit")
         return input("Choose: ")
+
+    def get_job_input(self):
+        return (
+            input("Company: "),
+            input("Title: "),
+            input("Status (applied/interview/offer/rejected): ")
+        )

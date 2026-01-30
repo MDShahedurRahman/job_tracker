@@ -67,3 +67,11 @@ git clone https://github.com/yourusername/job-application-tracker.git
 cd job-application-tracker
 python main.py
 ```
+
+## ▶️ Usage
+
+### Run:
+
+```
+python main.py
+```
